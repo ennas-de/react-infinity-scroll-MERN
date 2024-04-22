@@ -31,11 +31,11 @@ function App() {
           <Route
             path="/home"
             element={
-              user && user._id ? (
-                <Home updateUser={updateUser} />
-              ) : (
-                <Navigate to="/" updateUser={updateUser} />
-              )
+              // user && user._id ? (
+              <Home updateUser={updateUser} />
+              //   ) : (
+              //     <Navigate to="/" updateUser={updateUser} />
+              //   )
             }
           />
 
